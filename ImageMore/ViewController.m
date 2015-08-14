@@ -44,7 +44,7 @@
                              nil];
 
     _imageViewMain.image = [UIImage creatGroupImage:[array subarrayWithRange:NSMakeRange(0, index)]
-                                          backColor:[UIColor whiteColor]
+                                          backColor:[UIColor clearColor]
                                                size:_imageViewMain.frame.size
                                                edge:0
                                               scale:0];
